@@ -1,0 +1,22 @@
+=== Resource Manager Performance Benchmark Summary ===
+
+Test Date: 2025-04-10 09:04:36
+
+Concurrency Levels Tested: 10, 50, 100
+
+Performance Results:
+--------------------------------------------------------------------------------
+Concurrency    Success Rate   Throughput     Total Time     CPU Avg        Memory Avg     
+Level          (%)            (ops/sec)      (seconds)      (%)            (MB)           
+--------------------------------------------------------------------------------
+10             90.00          3.99           2.50           80.78          107.52         
+50             98.00          4.76           10.51          93.52          160.19         
+100            77.00          5.87           17.03          98.37          263.12         
+
+=== Key Observations ===
+
+Optimal concurrency level for throughput: 100 (5.87 ops/sec)
+Memory usage increase from 10 to 100 workers: 155.60 MB (144.7%)
+Warning: Success rate drops below 90% at certain concurrency levels
+
+Performance report graphs saved to performance_reports directory.

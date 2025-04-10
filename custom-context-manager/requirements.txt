@@ -1,0 +1,9 @@
+# There are no external dependencies needed for core functionality
+
+# Development dependencies
+pytest>=7.0.0
+pytest-cov>=3.0.0
+black>=22.3.0
+isort>=5.10.1
+mypy>=0.950
+flake8>=4.0.1

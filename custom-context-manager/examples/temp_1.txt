@@ -1,0 +1,2 @@
+Data from operation 1
+API response: {'status': 200, 'method': 'GET', 'url': 'https://api1.example.com/status', 'data': None, 'params': None, 'headers': {}, 'timestamp': 1744259831.8333387}

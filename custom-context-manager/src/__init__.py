@@ -1,0 +1,3 @@
+"""
+Resource manager package initialization.
+"""
