@@ -55,3 +55,7 @@ pylint-report.txt
 # Mac/Linux hidden files
 .DS_Store
 *.swp
+
+*.db
+*.sqlite
+*.sqlite3
