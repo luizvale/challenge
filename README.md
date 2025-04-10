@@ -1,4 +1,4 @@
-# ArionKoder Python Challenges
+# Python Challenges
 
 ## Project Overview
 
